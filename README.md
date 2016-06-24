@@ -17,5 +17,5 @@ $ docker-compose up -d
 ## connect to mysql
 ```
 local$ docker exec -it fuel_app /bin/bash
-fuel_app$ mysql -h db -u root -p -D fuel_dev
+fuel_app$ mysql -h fuel_db -u root -p -D fuel_dev
 ```
