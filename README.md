@@ -19,3 +19,12 @@ $ docker-compose up -d
 local$ docker exec -it fuel_app /bin/bash
 fuel_app$ mysql -h fuel_db -u root -p -D fuel_dev
 ```
+
+## requirements
+```
+$ docker -v
+Docker version 1.11.2, build b9f10c9
+
+$ docker-compose -v
+docker-compose version 1.7.1, build 0a9ab35
+```
