@@ -5,6 +5,8 @@ services:
     container_name: fuel_app
     build: app
     image: fuelphpdocker/app
+    depends_on:
+      - "fuel_db"
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
       - "./app/fuel_app:/var/www/app"
